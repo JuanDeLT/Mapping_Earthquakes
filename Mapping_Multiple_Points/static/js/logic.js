@@ -31,4 +31,3 @@ attribution: 'Map data &copy; <a href="https://www.openstreetmap.org/">OpenStree
 // Then we add our 'graymap' tile layer to the map.
 streets.addTo(map);
     
-

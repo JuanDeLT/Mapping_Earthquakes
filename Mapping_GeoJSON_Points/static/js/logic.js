@@ -8,6 +8,12 @@ attribution: 'Map data &copy; <a href="https://www.openstreetmap.org/">OpenStree
     accessToken: API_KEY
 });
 
+<<<<<<< HEAD
+=======
+// // Then we add our 'graymap' tile layer to the map.
+// streets.addTo(map);
+
+>>>>>>> e3c38ecb3e08a402b49a578e79ca7f946b0be4ee
 // Create the dark view tile layer that will be on option for our map
 let dark = L.tileLayer('https://api.mapbox.com/styles/v1/mapbox/dark-v10/tiles/{z}/{x}/{y}?access_token={accessToken}', {
 attribution: 'Map data &copy; <a href="https://www.openstreetmap.org/">OpenStreetMap</a> contributors, <a href="https://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>, Imagery (c) <a href="https://www.mapbox.com/">Mapbox</a>',
